@@ -6,7 +6,7 @@ void main() {
     await tester.pumpWidget(const MyApp());
     expect(find.text('Quadrillages'), findsOneWidget);
     expect(find.text('Forage'), findsOneWidget);
-    expect(find.text('Ventes/Achats d\'eau'), findsOneWidget);
+    expect(find.text("Ventes/Achats d'eau"), findsOneWidget);
     expect(find.text('Plomberie'), findsOneWidget);
   });
 }

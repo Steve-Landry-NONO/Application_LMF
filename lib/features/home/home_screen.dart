@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
           const SizedBox(height: 8),
           ElevatedButton(
             onPressed: () => Navigator.pushNamed(context, '/ventesAchats'),
-            child: const Text('Ventes/Achats d\'eau'),
+            child: const Text("Ventes/Achats d'eau"),
           ),
           const SizedBox(height: 8),
           ElevatedButton(
